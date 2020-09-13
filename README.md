@@ -1,2 +1,2 @@
-# nosh
-A React web app that queries the Yelp API to display restaurant information
+# explore
+A React web app that queries the Yelp API to display business information based on location
