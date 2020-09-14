@@ -6,7 +6,7 @@ Instructions:
 
 - In your terminal navigate to your cloned folder
 - run "npm install" to install required packages
-- update .env template file with your Yelp API key
+- add the variable REACT_APP_YELP_API_KEY to your .env file and assign your Yelp API key
 - execute "run npm start" to run the application
 - search for any businesses that would be found on Yelp, e.g.
       - restaurants
