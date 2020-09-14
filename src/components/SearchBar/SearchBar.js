@@ -1,3 +1,8 @@
+/**
+ * Handles search functionality
+ */
+
+
 import React from 'react';
 import './SearchBar.css';
 
@@ -66,6 +71,8 @@ class SearchBar extends React.Component {
 		event.preventDefault(); //prevent <a> default functionality
 	}
 
+
+	//search when the return key is pressed
 	handleKeyPress(event) {
 		if (event.key === 'Enter') {
 			this.props.searchYelp(

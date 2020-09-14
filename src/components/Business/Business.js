@@ -1,7 +1,11 @@
 import React from 'react';
 import './Business.css';
 
-const map = 'https://www.google.com/maps/search/?api=1&query=';
+// const map = 'https://www.google.com/maps/search/?api=1&query=';
+
+/**
+ * Displays individual business info
+ */
 
 class Business extends React.Component {
 	render() {
@@ -17,15 +21,9 @@ class Business extends React.Component {
 				</a>
 				<div className='Business-information'>
 					<div className='Business-address'>
-						{/* <a
-							href={
-								map + this.props.business.lat + ',' + this.props.business.long
-							}
-						> */}
 						<p>{this.props.business.address}</p>
 						<p>{this.props.business.city}</p>
 						<p>{this.props.business.zipCode}</p>
-						{/* </a> */}
 					</div>
 					<div className='Business-reviews'>
 						<h3>{this.props.business.category}</h3>
