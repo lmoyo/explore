@@ -1,7 +1,6 @@
 import React from 'react';
 
-const apiKey =
-	'IAVbvC_Zpu6Oz33KPTReqvMN0qLxQ8scNaeByKuOxC430pDSdItt4tKVY-ISK2CwyB-O9_QSxJeFhWxt_hNUWjnBhhg9N697RO-48GCM4P6OEArp9BGpc-8GxcZdX3Yx';
+const apiKey = process.env.REACT_APP_YELP_API_KEY;
 
 const Yelp = {
 	search(term, location, sortBy) {
